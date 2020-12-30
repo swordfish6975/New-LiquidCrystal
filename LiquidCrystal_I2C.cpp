@@ -198,6 +198,13 @@ void LiquidCrystal_I2C::setBacklight( uint8_t value )
 }
 
 
+void LiquidCrystal_I2C::changeAddress( uint8_t lcd_Addr ) 
+{
+   _Addr =  lcd_Addr;
+}
+
+
+
 // PRIVATE METHODS
 // ---------------------------------------------------------------------------
 

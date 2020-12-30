@@ -156,6 +156,8 @@ public:
     */
    void setBacklight ( uint8_t value );
 
+   void changeAddress ( uint8_t value );
+
   /*!
    @function
    @abstract   Initialises class private variables
